@@ -33,7 +33,6 @@ class SearchBar extends React.Component {
           <a>Let's Go</a>
         </div>
       </div>
-
     );
   }
 }
