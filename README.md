@@ -34,3 +34,10 @@ Below is a list of some potential features to add to Minesweeper game:
 "Ravenous" is a Yelp-like web application that allows users to search the Yelp API for restaurants that match a search option.
 ### Snapshot
 ![ravenous](https://github.com/fengvyi/Build-Front-End-Web-Applications-from-Scratch/blob/master/Codecademy_Pro_Intensive/projects/ravenous/Screen%20Shot%202018-05-04%20at%2010.20.56%20PM.png)
+### Features to add
+* Make addresses clickable and have them open the address in Google Maps in a new tab
+* Make images clickable and have them open the business' website in a new tab
+* Clicking on a different sorting option automatically requeries the Yelp API, rather than having to manually click "Let's Go" again
+* Implement your own type of sort (for example, by entering a distance or radius from a central location)
+* Allow you to search by pressing "Enter" (or "Return") on your keyboard, as opposed to manually clicking
+* Add autocompletion of addresses to the "Location" input
