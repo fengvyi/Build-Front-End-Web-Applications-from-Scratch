@@ -3,26 +3,7 @@ Build Front-End Web Apps from Scratch is an Codecademy Pro Intensive program tha
 
 ## Minesweeper
 A console based minesweeper game.
-***
-Here are the steps for setting up transpilation in your project:
 
-Initialize your project using `npm init`
-Install babel dependencies by running
-```
-npm install babel-cli -D
-npm install babel-preset-env -D
-```
-Create a `.babelrc` file inside your project and add the following code inside it:
-```
-{
-  "presets": ["env"]
-}
-```
-Add the following script to your scripts object in `package.json`:
-```
-"build": "babel src -d lib"
-```
-Run `npm run build` whenever you want to transpile your code from your src to lib directories.
 ***
 Below is a list of some potential features to add to Minesweeper game:
 * Add validation to ensure that board dimensions make sense. For example, a board should not be able to be created with more bombs than it has tiles.
