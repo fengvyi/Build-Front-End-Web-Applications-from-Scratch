@@ -1,19 +1,18 @@
 // Yelp API Key
 const apiKey = 'nO-SVFtMrEfyN2RBGdLll9vhBBurgx4REGYXk5sLMHOpb0eb_HrarVVdXoyoM8VrhLTHEQmcZmRkFtUL6Xz-Ob-akff--UoH_a4bYII0wVsRIqBERQ2XrALskvXsWnYx';
 
-
 const Yelp = {
-
   search(term, location, sortBy){
     return fetch(`https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}`,
       {
         headers: {
             Authorization: `Bearer ${apiKey}`
         }
-      }
-    ).then(response => response.json()).then(jsonResponse => {
-      if(jsonResponse.business) {
-        return jsonResponse.business.map(business => (
+      }).then(response => {
+          return response.json();
+      }).then(jsonResponse => {
+        if(jsonResponse.businesses) {
+          return jsonResponse.businesses.map(business => (
           {
             id: business.id,
             imageSrc: business.image_url,
