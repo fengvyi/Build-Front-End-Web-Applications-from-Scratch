@@ -32,3 +32,4 @@ Below is a list of some potential features to add to Minesweeper game:
 
 ## Ravenous
 "Ravenous" is a Yelp-like web application that allows users to search the Yelp API for restaurants that match a search option.
+![ravenous](https://github.com/fengvyi/Build-Front-End-Web-Applications-from-Scratch/blob/master/Codecademy_Pro_Intensive/projects/ravenous/Screen%20Shot%202018-05-04%20at%2010.20.56%20PM.png)
