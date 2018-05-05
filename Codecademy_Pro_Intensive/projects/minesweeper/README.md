@@ -1,4 +1,3 @@
-***
 Here are the steps for setting up transpilation in your project:
 
 Initialize your project using `npm init`
