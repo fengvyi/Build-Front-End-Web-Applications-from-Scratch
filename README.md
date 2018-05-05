@@ -1,6 +1,13 @@
 # Build-Front-End-Web-Applications-from-Scratch
 Build Front-End Web Apps from Scratch is an Codecademy Pro Intensive program that covers the skills professionals use to develop web applications with React. 
 
+## Table of Contents
+
+- [Minesweeper](#minesweeper)
+- [Ravenous](#ravenous)
+
+<a name="minesweeper"/>
+
 ## Minesweeper
 A console based minesweeper game.
 
@@ -9,6 +16,8 @@ A console based minesweeper game.
 * Add a timer which lets players know how long it took them to win (or lose).
 * Add recursive flipping, when a tile is flipped that isn't touching a bomb (would have the number zero printed on it), all adjacent tiles additionally flip over.
 * Add a method to place flags at a tile instead of flipping that tile. If a square has a flag on it, it can't be flipped over.
+
+<a name="ravenous"/>
 
 ## Ravenous
 "Ravenous" is a Yelp-like web application that allows users to search the Yelp API for restaurants that match a search option.
