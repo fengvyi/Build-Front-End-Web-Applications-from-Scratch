@@ -34,6 +34,7 @@ class Spotify extends Component {
     if(accessToken && expiresIn){
       window.setTimeout(() => accessToken = '', expiresIn * 1000);
       window.history.pushState('Access Token', null, '/');
+      return accessToken;
     }
     else{
       var scope = 'playlist-modify-public';
@@ -63,9 +64,10 @@ class Spotify extends Component {
   }
 
   search(searchTerm){
+    var access_token = this.getAccessToken();
     return fetch(`https://api.spotify.com/v1/search?type=track&q=${searchTerm}`,
     {
-      headers: {Authorization: `Bearer ${accessToken}`}
+      headers: {Authorization: `Bearer ${access_token}`}
     }).then(response => {
       if(response.ok){
         return response.json();
@@ -90,8 +92,7 @@ class Spotify extends Component {
     if(!playlistName || !trackURIs){
       return;
     }
-
-    var access_token = accessToken;
+    var access_token = this.getAccessToken();
     var userID;
     var playlistID;
 
