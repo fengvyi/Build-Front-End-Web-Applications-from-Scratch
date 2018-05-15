@@ -1,10 +1,8 @@
-import React, { Component } from 'react';
-
 var accessToken = '';
 const client_id = '0b5f7cecb6d04f0e8fcb8d31e3bf9ad4'; // Your client id
 const redirect_uri = 'http://localhost:3000/'; // Your redirect uri
 
-class Spotify extends Component {
+const Spotify = {
 
   getAccessToken(){
     if(accessToken !== ''){
@@ -61,7 +59,7 @@ class Spotify extends Component {
     xhr.open('GET', url);
     xhr.send();
     */
-  }
+  },
 
   search(searchTerm){
     var access_token = this.getAccessToken();
@@ -86,7 +84,7 @@ class Spotify extends Component {
       )
       );
     });
-  }
+  },
 
   savePlaylist(playlistName, trackURIs){
     if(!playlistName || !trackURIs){
@@ -157,6 +155,6 @@ class Spotify extends Component {
 
   }
 
-}
+};
 
 export default Spotify;
