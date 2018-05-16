@@ -6,6 +6,7 @@ Build Front-End Web Apps from Scratch is an Codecademy Pro Intensive program tha
 
 - [Minesweeper](#minesweeper)
 - [Ravenous](#ravenous)
+- [Jamming](#jamming)
 
 <a name="minesweeper"/>
 
@@ -21,7 +22,7 @@ A console based minesweeper game.
 <a name="ravenous"/>
 
 ## Ravenous
-"Ravenous" is a Yelp-like web application that allows users to search the Yelp API for restaurants that match a search option.
+Ravenous is a Yelp-like web application that allows users to search the Yelp API for restaurants that match a search option.
 
 ### Snapshot
 ![ravenous](https://github.com/fengvyi/Build-Front-End-Web-Applications-from-Scratch/blob/master/Codecademy_Pro_Intensive/projects/ravenous/Screen%20Shot%202018-05-04%20at%2010.20.56%20PM.png)
@@ -33,3 +34,11 @@ A console based minesweeper game.
 * Implement your own type of sort (for example, by entering a distance or radius from a central location)
 * Allow you to search by pressing "Enter" (or "Return") on your keyboard, as opposed to manually clicking
 * Add autocompletion of addresses to the "Location" input
+
+<a name="minesweeper"/>
+
+## Jamming
+Jammming is a React web application that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account.
+Website: https://jamming-zefengsong.surge.sh/
+
+### Snapshot
