@@ -38,7 +38,8 @@ Ravenous is a Yelp-like web application that allows users to search the Yelp API
 <a name="minesweeper"/>
 
 ## Jamming
-Jammming is a React web application that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account.<br/>
+Jammming is a React web application that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account.
+
 Website: https://jamming-zefengsong.surge.sh/
 
 ### Snapshot
