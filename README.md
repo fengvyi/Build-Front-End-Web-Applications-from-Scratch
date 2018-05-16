@@ -42,3 +42,4 @@ Jammming is a React web application that allows users to search the Spotify libr
 Website: https://jamming-zefengsong.surge.sh/
 
 ### Snapshot
+![](https://github.com/fengvyi/Build-Front-End-Web-Applications-from-Scratch/blob/master/Codecademy_Pro_Intensive/projects/jamming/Screen%20Shot%202018-05-16%20at%201.41.31%20PM.png)
