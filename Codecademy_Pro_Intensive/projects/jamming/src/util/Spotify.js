@@ -1,9 +1,15 @@
 var accessToken = '';
-const client_id = '0b5f7cecb6d04f0e8fcb8d31e3bf9ad4'; // Your client id
-const redirect_uri = 'http://localhost:3000/'; // Your redirect uri
+const client_id = '0b5f7cecb6d04f0e8fcb8d31e3bf9ad4';
+const redirect_uri = 'https://jamming-zefengsong.surge.sh/';
 
 const Spotify = {
-
+  /**
+  * Get a Spotify user's access token
+  * Using Implicit Grant Flow to authenticate against the Spotify Accounts.
+  *
+  * For more information, read
+  * https://beta.developer.spotify.com/documentation/general/guides/authorization-guide/
+  */
   getAccessToken(){
     if(accessToken !== ''){
       return accessToken;
@@ -15,8 +21,6 @@ const Spotify = {
     if(access_token && expires_in){
       accessToken = access_token[1];
       var expiresIn = expires_in[1];
-      console.log(accessToken);
-      console.log(expiresIn);
       window.setTimeout(() => accessToken = '', expiresIn * 1000);
       window.history.pushState('Access Token', null, '/');
       return accessToken;
@@ -32,6 +36,7 @@ const Spotify = {
     }
   },
 
+  // Returns a promise that will eventually resolve to the list of tracks from the search
   search(searchTerm){
     var access_token = this.getAccessToken();
     return fetch(`https://api.spotify.com/v1/search?type=track&q=${searchTerm}`,
@@ -57,6 +62,7 @@ const Spotify = {
     });
   },
 
+  // Write the user's playlist to theor Spotify account
   savePlaylist(playlistName, trackURIs){
     if(!playlistName || !trackURIs){
       return;
@@ -121,11 +127,8 @@ const Spotify = {
         }, networkError => console.log(networkError.message)
       ).then(jsonResponse => {}
       );
-
       });
-
     });
-
   }
 
 };
