@@ -1,6 +1,7 @@
 # Build-Front-End-Web-Applications-from-Scratch ![build](https://img.shields.io/wercker/ci/wercker/docs.svg)
 
 Build Front-End Web Apps from Scratch is an Codecademy Pro Intensive program that covers the skills professionals use to develop web applications with React. 
+![Certificate](https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/11574195)
 
 ## Table of Contents
 
