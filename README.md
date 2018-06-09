@@ -48,7 +48,7 @@ Website: https://jamming-zefengsong.surge.sh/
 ![](https://github.com/fengvyi/Build-Front-End-Web-Applications-from-Scratch/blob/master/Codecademy_Pro_Intensive/projects/jamming/Screen%20Shot%202018-05-16%20at%201.41.31%20PM.png)
 
 ### Potential Jammming Features:
-* Pressing enter triggers a search
+* Pressing enter triggers a search(done)
 * Include preview samples for each track
 * Only display songs not currently present in the playlist in the search results
 * Add a loading screen while playlist is saving
