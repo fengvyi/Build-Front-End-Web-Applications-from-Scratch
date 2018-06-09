@@ -46,3 +46,12 @@ Website: https://jamming-zefengsong.surge.sh/
 
 ### Snapshot
 ![](https://github.com/fengvyi/Build-Front-End-Web-Applications-from-Scratch/blob/master/Codecademy_Pro_Intensive/projects/jamming/Screen%20Shot%202018-05-16%20at%201.41.31%20PM.png)
+
+### Potential Jammming Features:
+* Pressing enter triggers a search
+* Include preview samples for each track
+* Only display songs not currently present in the playlist in the search results
+* Add a loading screen while playlist is saving
+* Update the access token logic to expire at exactly the right time, instead of setting expiration from when the user initiates their next search
+* After user redirect on login, restoring the search term from before the redirect
+* Ensure playlist information doesn't get cleared if a user has to refresh their access token
