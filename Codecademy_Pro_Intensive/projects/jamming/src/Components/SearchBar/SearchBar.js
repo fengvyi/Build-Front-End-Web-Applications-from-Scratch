@@ -20,12 +20,17 @@ class SearchBar extends Component {
     this.setState({term: event.target.value});
   }
 
+
   render() {
     return (
       <div className="SearchBar">
-        <input placeholder="Enter A Song, Album, or Artist"
-               onChange={this.handleTermChange} />
-        <a onClick={this.search}>SEARCH</a>
+        <input id="txtSearch" placeholder="Enter A Song, Album, or Artist"
+               onChange={this.handleTermChange} onKeyDown={(event)=>{
+                 if (event.keyCode === 13){
+                   document.getElementById('btnSearch').click();
+                 }
+               }}/>
+        <a id="btnSearch" onClick={this.search}>SEARCH</a>
       </div>
     );
   }
