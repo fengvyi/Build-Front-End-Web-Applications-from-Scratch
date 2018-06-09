@@ -26,6 +26,8 @@ A console based minesweeper game.
 ## Ravenous
 Ravenous is a Yelp-like web application that allows users to search the Yelp API for restaurants that match a search option.
 
+Website: ravenous-zefengsong.surge.sh
+
 ### Snapshot
 ![ravenous](https://github.com/fengvyi/Build-Front-End-Web-Applications-from-Scratch/blob/master/Codecademy_Pro_Intensive/projects/ravenous/Screen%20Shot%202018-05-04%20at%2010.20.56%20PM.png)
 
@@ -34,7 +36,7 @@ Ravenous is a Yelp-like web application that allows users to search the Yelp API
 * Make images clickable and have them open the business' website in a new tab
 * Clicking on a different sorting option automatically requeries the Yelp API, rather than having to manually click "Let's Go" again
 * Implement your own type of sort (for example, by entering a distance or radius from a central location)
-* Allow you to search by pressing "Enter" (or "Return") on your keyboard, as opposed to manually clicking
+* Allow you to search by pressing "Enter" (or "Return") on your keyboard, as opposed to manually clicking(done)
 * Add autocompletion of addresses to the "Location" input
 
 <a name="minesweeper"/>
